@@ -9,10 +9,10 @@ spring:
 
   #spring:
   redis:
-    host: 114.115.177.60
+    host: localhost
     port: 6379
     database: 0
-    password: ww1103 #默认为空
+    password: 1234 #默认为空
     timeout: 3000ms #最大等待时间，超时则抛出异常，否则请求一直等待
     lettuce:
       pool:
@@ -22,8 +22,8 @@ spring:
         min-idle: 0     #最小空闲连接，默认0
 
   rabbitmq:
-    host: 114.115.177.60
-    port: 5673
+    host: localhost
+    port: 5672
     virtual-host: /srbhost
     username: srbuser
     password: 123456
@@ -49,7 +49,7 @@ logging:
 aliyun:
   sms:
     region-id: cn-hangzhou
-    key-id: LTAI5tPFutbnJYLKGM9Xo1c7
-    key-secret: OWsWrYoKPFsmkoKsGLXqDg15HwCXwL
-    template-code: SMS_154950909
-    sign-name: 阿里云短信测试
+    key-id: your keyId
+    key-secret: your key-secret
+    template-code: your template-code
+    sign-name: your sign-name
