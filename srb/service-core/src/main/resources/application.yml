@@ -14,10 +14,10 @@ spring:
     password: root
 
   redis:
-    host: 114.115.177.60
+    host: localhost
     port: 6379
     database: 0
-    password: ww1103 #默认为空
+    password: 1234 #默认为空
     timeout: 3000ms #最大等待时间，超时则抛出异常，否则请求一直等待
     lettuce:
       pool:
@@ -27,8 +27,8 @@ spring:
         min-idle: 0     #最小空闲连接，默认0
 
   rabbitmq:
-    host: 114.115.177.60
-    port: 5673
+    host: localhost
+    port: 5672
     virtual-host: /srbhost
     username: srbuser
     password: 123456
