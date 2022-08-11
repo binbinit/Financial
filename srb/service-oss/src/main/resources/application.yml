@@ -14,7 +14,7 @@ spring:
 
 aliyun:
   oss:
-    endpoint: oss-cn-hangzhou.aliyuncs.com
-    keyId: LTAI5tLvfi4Ac22rGnc5r4Pf
-    keySecret: IGyzKYfW3tjeTmVl4sR0JBmwwQMlQn
-    bucketName: srb-20220808
+    endpoint: your endpoint
+    keyId: your keyId
+    keySecret: your keySecret
+    bucketName: your bucketName
